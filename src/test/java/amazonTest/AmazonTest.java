@@ -63,12 +63,23 @@ public class AmazonTest {
 						By.xpath("//*[@id='" + xpath + "']"
 								+ "/div/div/div/div[2]/div[1]/div[1]/a/h2"))
 						.click();
+			/*
+			 * identify the id element of the add to cart button and click the button.	
+			 * User then click the 'Edit Based' button
+			 */
+				
 				driver.findElement(
 						By.id("add-to-cart-button"))
 						.click();
 				driver.findElement(
 						By.id("hlb-view-cart-announce"))
 						.click();
+				
+			/*
+			 * On the shopping basket page, enter the quantity as 10 and click update
+			 * Identify the Delete link and use submit function to delete the item from the basket
+			 * 
+			 */
 				driver.findElement(
 						By.xpath("//*[@id=\"a-autoid-0-announce\"]"))
 						.click();
