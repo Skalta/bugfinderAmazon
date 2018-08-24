@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Suite" duration-ms="38261" started-at="2018-08-24T12:24:54Z" finished-at="2018-08-24T12:25:32Z">
+    <groups>
+    </groups>
+    <test name="Amazon tests" duration-ms="38261" started-at="2018-08-24T12:24:54Z" finished-at="2018-08-24T12:25:32Z">
+      <class name="amazonTest.AmazonTest">
+        <test-method status="PASS" signature="amazonSearchTest(java.lang.String)[pri:0, instance:amazonTest.AmazonTest@340f438e]" name="amazonSearchTest" duration-ms="38210" started-at="2018-08-24T22:24:54Z" finished-at="2018-08-24T22:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[air suspension]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonSearchTest -->
+      </class> <!-- amazonTest.AmazonTest -->
+    </test> <!-- Amazon tests -->
+  </suite> <!-- Amazon Suite -->
+</testng-results>

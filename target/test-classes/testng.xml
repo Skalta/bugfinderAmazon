@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Suite" parallel="methods" thread-count="1" >
+	
+	
+	<parameter name="searchString" value="air suspension"/>
+
+	
+	
+	
+	<test name="Amazon tests">
+		<classes>
+		    <class name="amazonTest.AmazonTest"/>
+		</classes>
+	</test>
+</suite>

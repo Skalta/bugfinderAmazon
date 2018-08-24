@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Amazon Suite]" parallel="methods">
+  <parameter name="searchString" value="air suspension"/>
+  <test name="Amazon tests(failed)" parallel="methods">
+    <classes>
+      <class name="amazonTest.AmazonTest">
+        <methods>
+          <include name="amazonSearchTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- amazonTest.AmazonTest -->
+    </classes>
+  </test> <!-- Amazon tests(failed) -->
+</suite> <!-- Failed suite [Amazon Suite] -->
