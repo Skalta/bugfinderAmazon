@@ -93,6 +93,10 @@ public class AmazonTest {
 						By.xpath("//*[@id=\"a-autoid-1-announce\"]"))
 						.click();
 				Thread.sleep(2000);
+			/* 
+			* Click to remove the item from the Cart
+			*/
+				
 				driver.findElement(
 						By.xpath("//*[@id=\"activeCartViewForm\"]/div[2]/div/div[4]/div/div[1]/div/div/div[2]/div/span[1]/span/input"))
 						.submit();
